@@ -1,5 +1,5 @@
 // code submitted for challenge
-function reverseString(str) {
+function reverseString(str) { //takes string as input, returns string in reverse
   
   str = str.split('').reverse().join('');
   return str;
