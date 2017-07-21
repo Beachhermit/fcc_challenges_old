@@ -26,4 +26,5 @@ console.log(rot13("SERR PBQR PNZC")); // should decode to "FREE CODE CAMP"
 console.log(rot13("GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.")); // should decode to "THE QUICK BROWN DOG JUMPED OVER THE LAZY FOX."
 console.log(rot13("LBH QVQ VG!"));
 
-//String.fromCharCode.apply(this, array) - code picked up from stackexchange
+// String.fromCharCode.apply(this, array) - code picked up from stackoverflow 
+// https://stackoverflow.com/questions/9936490/can-i-pass-an-array-into-fromcharcode
