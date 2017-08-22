@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="css/styles.css" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+        <!-- http://jquery.com/ -->
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="js/qm.js"></script> 
+        <title>Random Quote Machine</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row text-center">
+                <div>
+                <h1>Random Quote Machine!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="quote">
+                </div>
+            </div>
+            <div class="row">
+                <div class="author">
+                </div>
+            </div>
+            <div class="row">
+                <div class="quoteForm">
+                    <form action="http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1" method="post">
+                        <button id="getQuote" class="btn btn-primary" type="submit">Get Random Quote</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="smallPrint">
+            Coded by BeachHermit 2017
+            <br>
+            Background image from https://pixabay.com/en/sunbeam-afterglow-morgenrot-pond-292987/
+        </footer>
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </body>
+</html>
