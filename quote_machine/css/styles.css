@@ -2,7 +2,7 @@ h1 {
     font-family: cursive;
     font-size: 60px;
     text-align: center;
-    color: #433408;
+    color: black;
     margin-left: auto;
     margin-right: auto;
 }
@@ -26,9 +26,15 @@ body {
 }
 #quoteText {
     font-size: larger;
+    font-weight: bold;
+    font-family: cursive;
     display: inline-block;
     vertical-align: middle;
     line-height: 22px;
+}
+button {
+    background-color: darkgreen;
+    color: #FBF9F9;
 }
 #author {
     background-color: bisque;
@@ -45,6 +51,8 @@ body {
 }
 #authorText {
     font-size: large;
+    font-weight: bold;
+    font-family: cursive;
 }
 .quoteForm {
     margin-left: auto;
