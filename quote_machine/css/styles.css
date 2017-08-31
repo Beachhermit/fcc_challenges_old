@@ -1,33 +1,50 @@
 h1 {
     font-family: cursive;
-    font-size: x-large;
+    font-size: 60px;
     text-align: center;
-    color: red;
+    color: #433408;
     margin-left: auto;
     margin-right: auto;
 }
 body {
     background-image: url("../images/sunbeam.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100%;
 }
-.quote {
+#quote {
     background-color: beige;
-    width: 50%;
-    height: 25%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
     margin-bottom: auto;
+    border: 10px solid bisque;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
-.author {
+#quoteText {
+    font-size: larger;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 22px;
+}
+#author {
     background-color: bisque;
-    width: 25%;
-    height: 12%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
     margin-bottom: auto;
+    border: 8px solid burlywood;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#authorText {
+    font-size: large;
 }
 .quoteForm {
     margin-left: auto;
@@ -43,4 +60,6 @@ body {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20%;
+    vertical-align: text-bottom;
 }
